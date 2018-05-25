@@ -1,0 +1,78 @@
+
+.breadcrumb {
+ margin: 0;
+}
+.head-line{
+ border: 0;
+ border-bottom: 1px #e5e5e5 solid;
+ margin: 0;
+}
+.breadcrumb-bg{
+ background-color: #f2f2f2;
+ width: 100%;
+ margin-bottom: 30px;
+}
+.breadcrumb{
+ width: 1200px;
+ margin: 0 auto;
+ height: 73px;
+ line-height: 73px;
+}
+.goods{
+ display: flex;
+ justify-content: space-between;
+ width: 1140px;
+ margin: 0 auto;
+}
+.goods-introduce{
+ position: relative;
+ width: 610px;
+ height: 400px;
+}
+.goods-introduce h4{
+ color: #333;
+ font-family: PingFangSC-Semibold;
+ font-size: 28px;
+}
+.goods-introduce p{
+ margin-top: 40px;
+ color: #999;
+ font-family: PingFangSC-Regular;
+ font-size: 14px;
+}
+.btn-goods{
+ position: absolute;
+ bottom: 0;
+ width: 200px;
+ height:70px;
+ color: #fff;
+ background-color: #e6212a;
+ font-family: PingFangSC-Regular;
+ font-size: 24px;
+ border: 0;
+ cursor: pointer;
+}
+.goods-container{
+ background-color: #f2f2f2;
+ width: 100%;
+ padding: 15px 0 150px 0;
+ margin-top: 30px;
+}
+.goods-info{
+ width: 1140px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+.goods-info img{
+ margin: 15px 0;
+ max-width: 100%;
+}
+.goods-info p{
+ font-family: PingFangSC-Regular;
+ font-size: 16px;
+ color: #666;
+ line-height: 30px;
+}
+#fooder{
+ margin-top: 95px;
+}

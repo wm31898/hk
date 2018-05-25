@@ -1,0 +1,47 @@
+
+.head-line{
+ border: 0;
+ border-bottom: 1px #e5e5e5 solid;
+ margin: 0 0 35px 0;
+}
+.old-module{
+ margin: 30px 0;
+ display: flex;
+ justify-content: space-between;
+}
+.old-module .old-img{
+ width:870px;
+ height: 280px;
+ display: inline;
+}
+.old-module img{
+ width:870px;
+ height: 280px;
+ display: inline-block;
+}
+.old-text{
+ /*padding: 42px 30px 10px 30px;
+ width: 240px;
+ height: 227px;
+ display: inline-block;
+ font-family: "微软雅黑";
+ font-weight: 600;
+ font-size: 28px;
+ color: #333;
+ background-color: #ccc;*/
+}
+.old-text{ width: 300px; height: 280px; background: #cccccc;overflow: hidden;}
+.old-text h4{font-size: 28px; color: #333; line-height: 28px; font-weight: bold; font-style: oblique; padding-left: 30px; padding-top: 50px; padding-bottom: 18px; height: 28px; overflow: hidden;}
+.old-text p{font-size: 14px; color: #333; line-height: 24px; padding: 0 17px; height: 165px;overflow: hidden;}
+.old-text .old-info{
+ /*font-size: 14px;
+ line-height: 22px;
+ margin-top: 10px;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 8;
+ overflow: hidden;*/
+}
+#fooder{
+ margin-top: 95px;
+}

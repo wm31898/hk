@@ -1,0 +1,38 @@
+a:link, a:visited, a:hover{
+ color: #fff;
+}
+.head-line{
+ border: 0;
+ border-bottom: 1px #e5e5e5 solid;
+ margin: 0 0 35px 0;
+}
+.sunshine-module{
+ position:relative;
+ width:100%;
+}
+.sunshine-module img{
+ width:100%;
+ margin: 15px 0;
+}
+.sunshine-text{
+ width: 100%;
+ text-align: center;
+ color: #fff;
+ font-family: PingFangSC-Semibold;
+ font-size: 40px;
+ position:absolute;
+ top: 43%;
+}
+.sunshine-info{
+ width: 120px;
+ height: 40px;
+ display: inline-block;
+ font-family: PingFangSC-Regular;
+ font-size: 14px;
+ border-radius: 100px;
+ background-color: rgba(230,33,42,0.8);
+ line-height: 40px;
+}
+#fooder{
+ margin-top: 95px;
+}

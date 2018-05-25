@@ -1,0 +1,12 @@
+﻿更新master 88
+
+服务器上传自动过滤文件
+--exclude=config/db.php 
+--exclude=config/console.php 
+--exclude=config/modules_config.php 
+--exclude=config/test_db.php 
+--exclude=config/test.php 
+--exclude=config/web.php
+--exclude=config/params.php
+--exclude=yii
+  

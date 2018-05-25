@@ -1,0 +1,112 @@
+li {
+ font-family: PingFangSC-Regular;
+}
+.jy-nav-tab{
+margin: 100px 0;
+}
+.recruit-ul .clearfix{
+ display: flex;
+ flex-wrap: wrap;
+}
+.recruit-details{
+ cursor: pointer;
+}
+.recruit-ul li.clearfix:nth-of-type(odd){
+ background:#ededed;
+}
+.recruit-ul li.clearfix:nth-of-type(even){
+ background:#f3f3f3;
+}
+.recruit-ul li.clearfix:nth-of-type(odd) .recruit-details{
+ background:#dcdbdc;
+}
+.recruit-ul li.clearfix:nth-of-type(even) .recruit-details{
+ background:#ebebeb;
+}
+.recruit-ul li.clearfix:first-child{
+ background-color: #000;
+ font-size: 14px;
+ color: #fff;
+}
+.recruit-ul .clearfix:first-child .positional,
+.recruit-ul .clearfix:first-child .number,
+.recruit-ul .clearfix:first-child .education{
+ background: none;
+}
+.recruit-ul .clearfix .positional,
+.recruit-ul .clearfix .number,
+.recruit-ul .clearfix .education{
+ background: url(../images/vertical_line.jpg) right no-repeat;
+}
+.recruit-ul li.clearfix .active{
+ background: #e6212a!important;
+ color: #fff;
+ font-size: 14px;
+}
+.recruit-ul .clearfix>span{
+ text-align: center;
+ height: 60px;
+ line-height: 60px;
+ display: block;
+}
+.recruit-ul .clearfix .positional{
+ width: 350px;
+}
+.recruit-ul .clearfix .number{
+ width: 250px;
+}
+.recruit-ul .clearfix .education{
+ width: 182px;
+}
+.recruit-ul .clearfix .time{
+ width: 248px;
+}
+.recruit-ul .clearfix .operate{
+ width: 170px;
+}
+.recruit-ul-item{
+ width: 100%;
+ padding: 42px 40px;
+ background: #fff;
+ display: block;
+}
+.recruit-ul-item li{
+ margin-bottom: 37px;
+}
+.recruit-ul-item li:last-child{
+ margin-bottom: 0;
+}
+.recruit-ul-item li:first-child{
+ font-size: 14px;
+ color: #777;
+}
+.recruit-ul-item li:first-child label:first-child{
+ margin-left: 0;
+}
+.recruit-ul-item li:first-child label{
+ margin-left: 120px;
+ display: inline-block;
+}
+.recruit-ul-item li h5{
+ font-size: 16px;
+ font-family: PingFangSC-Semibold;
+ margin-bottom: 19px;
+}
+.recruit-ul-item li label{
+ display: block;
+ line-height: 30px;
+ font-size: 14px;
+ color: #999;
+}
+.resumes {
+ width: 190px;
+ height: 50px;
+ color: #fff;
+ font-size: 18px;
+ border: 0;
+ border-radius: 100px;
+ background: -webkit-linear-gradient(left, #fe434c , #e7222b); /* Safari 5.1 - 6.0 */
+ background: -o-linear-gradient(right, #fe434c, #e7222b); /* Opera 11.1 - 12.0 */
+ background: -moz-linear-gradient(right, #fe434c, #e7222b); /* Firefox 3.6 - 15 */
+ background: linear-gradient(to right, #fe434c , #e7222b); /* 标准的语法 */
+}
